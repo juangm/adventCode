@@ -1,6 +1,6 @@
 function binaryDiagnostic() {
   const lineReader = require('readline').createInterface({
-    input: require('fs').createReadStream('./Day03/measures.txt'),
+    input: require('fs').createReadStream('./2021/Day03/measures.txt'),
   });
 
   let binary = {

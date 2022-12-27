@@ -1,6 +1,6 @@
 function calculateMeasurements() {
   const lineReader = require('readline').createInterface({
-    input: require('fs').createReadStream('./Day01/measurements.txt'),
+    input: require('fs').createReadStream('./2021/Day01/measurements.txt'),
   });
   let total = -1;
   let limit = 0;

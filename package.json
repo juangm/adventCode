@@ -1,9 +1,8 @@
 {
   "name": "advent_of_code_2021",
   "version": "1.0.1",
-  "description": "Solutions for Advent Of Code 2021 - https://adventofcode.com/2021",
+  "description": "Solutions for Advent Of Code - https://adventofcode.com",
   "main": "index.js",
-  "repository": "git@github.com:juangm/adventCode2021.git",
   "author": "Juan Garcia",
   "license": "MIT"
 }
