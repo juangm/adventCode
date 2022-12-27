@@ -7,7 +7,6 @@ function calculateCalories() {
   lineReader.on('line', function (cal) {
     if (cal === '') {
       totalCalories.push(tempCalories);
-      console.log(tempCalories);
       tempCalories = 0;
     } else {
       tempCalories += parseFloat(cal);
@@ -19,6 +18,7 @@ function calculateCalories() {
     console.log(`First Elf with most calories -> ${sortCalories[0]}`);
     console.log(`Second Elf with most calories -> ${sortCalories[1]}`);
     console.log(`Thirds Elf with most calories -> ${sortCalories[2]}`);
+    console.log(`Fourth Elf with most calories -> ${sortCalories[3]}`);
     console.log(`Total -> ${sortCalories[0] + sortCalories[1] + sortCalories[2]}`);
   });
 }
